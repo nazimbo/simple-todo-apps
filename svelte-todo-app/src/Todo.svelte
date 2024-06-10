@@ -15,7 +15,7 @@
 <div class="todo">
   <input type="checkbox" checked={todo.completed} on:change={handleComplete} />
   <span class:completed={todo.completed}>{todo.text}</span>
-  <button on:click={handleRemove}>Delete</button>
+  <button on:click={handleRemove}>x</button>
 </div>
 
 <style>
